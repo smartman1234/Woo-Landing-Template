@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className={styles.nav}>
         <div className={styles.header}>
-          <div className={styles.logo}>
+          <div className={styles.brand}>
             <img src="/LOGO.png" alt="Logo" />
           </div>
           <ul className={styles.menu}>
