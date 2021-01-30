@@ -9,15 +9,16 @@ const Secondpage = () => {
       </div>
       <article className={styles.sec}>
         <div className={styles.box1}>
-          <img src="/" alt="" />
-          <img src="/" alt="" />
-          <img src="/" alt="" />
+          <img src="/apple.png" alt="" />
+          <img src="/image 16.png" alt="" />
+          <img src="/Rectangle 223.png" alt="" />
+
           <h3>All You Need to Start</h3>
           <a href="/">Ecommerce for Wordpress ›</a>
         </div>
         <div className={styles.box2}>
-          <img src="/" alt="" />
-          <img src="/" alt="" />
+          <img src="" alt="" />
+          <img src="/Rectangle 224.png" alt="" />
           <img src="/" alt="" />
           <h3>Customize and Extend</h3>
           <p>

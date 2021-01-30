@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <div className={styles.side}>
           <a href="/">Login</a>
-          <button className={styles.bars}>
+          <button className={styles.btn}>
             <span>Get started</span>
           </button>
           <a href="/">

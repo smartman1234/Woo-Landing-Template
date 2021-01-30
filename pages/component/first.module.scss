@@ -10,18 +10,17 @@
 .left {
   width: 50%;
   margin: 0px;
-  padding: 140px 140px 0px 0px;
+  padding: 140px 0px 140px 140px;
   margin-right: 20px;
-
 }
 
 .left h4 {
-  width: 818px;
+  width: 580px;
   height: 285px;
-  font-family: Circular Std;
-  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .left a {
@@ -33,10 +32,10 @@
 }
 .left p {
   color: #94a2b3;
-  width: 716px;
+  width: 650px;
   height: 50px;
   font-family: Roboto;
-
+  padding-top: 0;
   font-weight: normal;
   font-size: 18px;
 }
@@ -44,7 +43,6 @@
   font-weight: normal;
   color: #94a2b3;
   padding: 3px;
-  
 }
 .btn {
   width: 267px;
@@ -70,4 +68,16 @@
   position: relative;
   height: 900px;
   top: -20px;
+}
+.relative{
+  height: 888px;
+ width: 1601px;
+ background-color: white;
+}
+.bold{
+   justify-content: center;
+   display: flex;
+}
+.sec{
+  display: flex;
 }
