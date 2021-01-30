@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   width: 95%;
-position: fixed;
+position: relative;
 top: 0;
   height: 10vh;
   margin: 20px 150px 0px 150px;
@@ -29,29 +29,30 @@ top: 0;
 .link {
   padding: 20px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   font-family: Roboto;
 }
-.bars {
+.btn{
   background-color: #7854f7;
   border-radius: 5px;
-  padding: 13px 14px;
+  padding: 9px 12px;
   color: white;
   border: 2px solid #7854f7;
   margin: 0 30px;
 }
-.bars:hover {
+.btn:hover {
   font-size: 100%;
   cursor: pointer;
+  background-color: red;
 }
 .side {
   padding: 10px;
 }
 .side a {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 .search {
-  margin-top: 8px;
+  padding-top: 10px;
 }
