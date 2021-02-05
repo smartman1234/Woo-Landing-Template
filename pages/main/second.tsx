@@ -50,11 +50,15 @@ const Secondpage = () => {
             </div>
           </div>
           <div className={styles.box3}>
-            <img src="/" alt="" />
             <img src="/Rectangle 225.png" alt="" className={styles.mainimg} />
-            <img src="/Rectangle 226" alt="" className={styles.leftimg} />
-            <img src="/Rectangle 227" alt="" className={styles.topimg} />
-            <img src="/Rectangle 228" alt="" className={styles.outsideimg} />
+            <img src="/" alt="" />
+            <img src="/Rectangle 226.png" alt="" className={styles.leftimg} />
+            <img src="/Rectangle 227.png" alt="" className={styles.topimg} />
+            <img
+              src="/Rectangle 228.png"
+              alt=""
+              className={styles.outsideimg}
+            />
             <div className={styles.content}>
               <h3 className={styles.heads}>Active Community</h3>
               <p className={styles.writing}>
