@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   margin: 0rem;
-  background-color: #b8deee;
+ background-image: gradient(radial, center center, 0, center center, 141, fromrgb(120, 205, 245), to(white))
 }
 
 .main {

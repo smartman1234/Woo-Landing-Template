@@ -1,24 +1,22 @@
 .first {
   max-width: 100vw;
   display: flex;
-  margin: 0rem;
+  margin-top: 1rem;
 }
 
 .right {
-  width: 40%;
+  width: 47%;
   height: 909.14px;
 }
 .left {
   width: 50%;
   margin: 0px;
-  padding: 10rem 0rem 0rem 8rem;
+  padding: 12rem 0rem 0rem 8rem;
   margin-right: 0.2rem;
-
 }
 
 .left h4 {
-
-margin: 0;
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   padding: 0px;
   font-weight: bold;
@@ -29,66 +27,77 @@ margin: 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 0.9rem;
   padding: 5px;
 }
 .left p {
   color: #94a2b3;
-  width: 650px;
+  justify-content: flex-end;
   height: 50px;
   font-family: Roboto;
   padding-top: 0;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .left span {
   font-weight: normal;
   color: #94a2b3;
   padding: 3px;
+  font-size: 0.8rem;
 }
 .btn {
-  width: 267px;
-  height: 72px;
+  padding: 20px 50px;
+
   color: white;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.9rem;
   background: #7854f7;
   border-radius: 60px;
   border: 2px solid #7854f7;
   margin-right: 10px;
 }
 .top {
-  width: 600px;
+  width: 100%;
   height: 600px;
-  left: 20px;
-  top: -760px;
+  left: 40px;
+  top: -800px;
   position: relative;
+
+  max-block-size: 100%;
 }
 .back {
-  width: 600px;
-  left: 20px;
+  width: 100%;
+  left: 40px;
   position: relative;
   height: 900px;
-  top: -20px;
+  top: -60px;
+  opacity: 0.1;
 }
 .relative {
-  height: 888px;
+  width: 90%;
+  position: absolute;
+  margin: auto;
   background-color: white;
 }
+
 .heads {
-  height: 70px;
+  margin: 0;
   font-family: Circular Std;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
 }
+.head a {
+  margin: 0;
+  color: #299ef3;
+}
 .writing {
-  width: 430px;
-  height: 60px;
+  width: 270px;
+  height: 45px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 0.8rem;
   color: #94a2b3;
 }
 .bold {
@@ -102,8 +111,8 @@ margin: 0;
   justify-content: center;
   display: flex;
 }
-.content{
-  padding-left: 40px;
+.content {
+  padding-left: 30px;
 }
 .bold h2 {
   width: 400px;
@@ -118,7 +127,6 @@ margin: 0;
   top: 70px;
   left: -25px;
   position: relative;
-  
 }
 .pending {
   top: 289px;
@@ -127,19 +135,70 @@ margin: 0;
 }
 .box1 {
   position: relative;
-  top: -150px;
-  left: 100px;
+  top: -160px;
+  left: 70px;
   align-items: flex-start;
+  width: 536px;
 }
+
 .box2 {
   position: relative;
   top: 130px;
-  left: 133px;
+  left: -20px;
+  width: 431px;
   justify-content: left;
 }
-.box3{
-   position: relative;
-  top: 170px;
-  left: 50px;
+.box3 {
+  position: relative;
+  top: 180px;
+  left: -40px;
+  width: 495px;
   justify-content: left;
+}
+.topright {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+}
+.img3 {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 74px;
+top: 136px;
+}
+.img2 {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 74px;
+top: 36px;
+}
+.img4 {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 74px;
+top: 136px;
+}
+.img5 {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 4px;
+top: 106px;
+}
+.leftimg {
+  position:absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 74px;
+top: 136px;
+}
+.outsideimg {
+  position: absolute;
+  filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+  border-radius: 10px;
+  left: 74px;
+top: 106px;
 }

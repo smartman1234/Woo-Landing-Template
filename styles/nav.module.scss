@@ -1,11 +1,12 @@
 .nav {
   display: flex;
   width: 98vw;
-position: relative;
+position: absolute;
 top: 0;
   height: 10vh;
-  margin: 0px 20px;
+  margin: 0px 0px;
   font-family: Roboto;
+  padding: 0px 20px;
   justify-content: space-between;
 }
 .header {
@@ -40,10 +41,12 @@ top: 0;
   color: white;
   border: 2px solid #7854f7;
   margin: 0 30px;
+
 }
 .btn:hover {
   font-size: 100%;
   cursor: pointer;
+  
   background-color: red;
 }
 .side {
