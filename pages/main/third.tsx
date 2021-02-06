@@ -42,13 +42,14 @@ const Secondpage = () => {
           </div>
 
           <div className={styles.float2}>
+            <img src="/Ellipse 34.png" alt="" className={styles.mediumelip} />
+            <img src="/Group 8.png" alt="" className={styles.group8} />
             <img
               src="/Rectangle 233.png"
               alt=""
               className={styles.imgrightbig2}
             />
-            <img src="/Ellipse 34.png" alt="" className={styles.mediumelip} />
-            <img src="/Group 8.png" alt="" className={styles.group8} />
+
             <img src="/Ellipse 33.png" alt="" className={styles.smallelip2} />
           </div>
         </div>
