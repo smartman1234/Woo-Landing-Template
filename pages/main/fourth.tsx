@@ -5,10 +5,13 @@ const Fourthpage = () => {
   return (
     <div className={styles.fourth}>
       <div className={styles.fourthtop}>
-        <h2>Trusted by Agencies & Store Owners</h2>
-        <img src="/testim.png" className={styles.testim} />
+        <div className={styles.write}>
+          <h2>Trusted by Agencies & Store Owners</h2>
+          <img src="/testim.png" className={styles.testim} />
+        </div>
+
         <div>
-          <img src="/imgage 24.png" className={styles.fourthimg5} />
+          <img src="/.png" className={styles.fourthimg5} />
           <img src="/imgage 24.png" className={styles.fourthimg6} />
           <img src="/imgage 24.png" className={styles.fourthimg7} />
           <img src="/imgage 24.png" className={styles.fourthimg8} />
@@ -32,7 +35,8 @@ const Fourthpage = () => {
             Our team of Happiness Engineers works remotely from 58 countries
             providing customer support across multiple time zones.
           </p>
-          <img src="/image 24.png" className={styles.lastbox} />
+          <img src="/backdrop.png" className={styles.backdrop} />
+          <img src="/image 24.png" className={styles.lastboximg} />
         </div>
         <img src="/imgage 24.png" className={styles.dots} />
         <img src="/imgage 24.png" className={styles.circle} />

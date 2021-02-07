@@ -3,7 +3,7 @@ import styles from '../styles/footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className={styles.topfooter}>
         <div>
           <p className={styles.topfooterp}>
