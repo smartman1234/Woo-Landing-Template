@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../../styles/third.module.scss';
 
-const Secondpage = () => {
+const Thirdpage = () => {
   return (
     <main className={styles.container}>
       <div>
@@ -58,4 +58,4 @@ const Secondpage = () => {
   );
 };
 
-export default Secondpage;
+export default Thirdpage;

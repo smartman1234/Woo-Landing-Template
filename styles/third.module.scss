@@ -1,14 +1,15 @@
 .container {
-  background-image: url('/background.png');
+  background-image: url('/background.png' );
   background-repeat: no-repeat;
   justify-content: center;
+  
   background-size: cover;
   width: 100%;
-  height: 1110px;
+  height: 800px;
   display: flex;
   position: relative;
-  top: 490px;
-  bottom: 200px;
+  top: 100px;
+
 }
 .boldtop {
   display: flex;
@@ -24,7 +25,6 @@
 .imgrightbig2 {
   width: 370px;
 
-  box-shadow: -25px 20px 44px rgba(84, 48, 209, 0.4);
   border-radius: 20px;
   position: absolute;
   top: 360px;
