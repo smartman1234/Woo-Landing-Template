@@ -4,6 +4,18 @@ import styles from '../styles/footer.module.scss';
 const Footer = () => {
   return (
     <footer>
+      <div className={styles.topfooter}>
+        <div>
+          <p className={styles.topfooterp}>
+            WooCommerce - the most customizable eCommerce platform for building
+            your online business.
+          </p>
+        </div>
+
+        <div>
+          <button className={styles.topbtn}>GET STARTED</button>
+        </div>
+      </div>
       <main className={styles.main}>
         <div className={styles.first}>
           <div className={styles.inner}>
@@ -22,7 +34,7 @@ const Footer = () => {
         <div className={styles.second}>
           <img src="/LOGO2.png" />
         </div>
-      
+
         <div className={styles.Third}>
           <div className={styles.text}>
             <h3>WHO WE ARE</h3>

@@ -85,3 +85,32 @@ height: 41px;
   margin: 30px;
   padding: 0;
 }
+.topfooter{
+  background: #5F37EF;
+  display: flex;
+  justify-content: center;
+  height: 201px;
+
+}
+.topfooterp{
+align-items: center;
+font-weight: normal;
+font-size: 1.7rem;
+width: 605px;
+margin-top: 70px;
+line-height: 35px;
+color: #FFFFFF;
+margin-right: 20px;
+}
+.topbtn{
+background-color: #5F37EF ;
+font-family: Roboto;
+margin-top: 78px;
+font-weight: bold;
+font-size: 12px;
+padding: 1rem 1.8rem;
+text-align: center;
+color: #FFFFFF;
+border-radius: 60px;
+border: 2px solid white;
+}
