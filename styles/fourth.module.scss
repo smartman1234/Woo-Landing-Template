@@ -1,0 +1,42 @@
+.fourth {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.fourthtop {
+  width: 90%;
+  height: 509px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+}
+.testim {
+  width: 730px;
+  height: 439px;
+}
+
+.fourthtop h2 {
+  width: 300px;
+  height: 140px;
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 70px;
+  text-align: center;
+  color: #272d4e;
+}
+.last {
+  width: 50%;
+  height: 583.08px;
+}
+.lastbox {
+  width:800px;
+  height: 293px;
+}

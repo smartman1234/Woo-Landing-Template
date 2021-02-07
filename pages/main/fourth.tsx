@@ -5,10 +5,8 @@ const Fourthpage = () => {
   return (
     <div className={styles.fourth}>
       <div className={styles.fourthtop}>
-       
         <h2>Trusted by Agencies & Store Owners</h2>
-        <h2>Trusted by Agencies & Store Owners</h2>
-        <img src="/imgage 24.png" />
+        <img src="/testim.png" className={styles.testim} />
         <div>
           <img src="/imgage 24.png" className={styles.fourthimg5} />
           <img src="/imgage 24.png" className={styles.fourthimg6} />
@@ -25,19 +23,19 @@ const Fourthpage = () => {
         </div>
       </div>
       <div className={styles.last}>
-        <img src="/imgage 24.png" />
-        <img src="/imgage 24.png" />
-        <img src="/imgage 24.png" />
+        <img src="/imgage 24.png" className={styles.mediumcircle} />
+        <img src="/imgage 24.png" className={styles.smallcircle} />
+        <img src="/imgage 24.png" className={styles.dots} />
         <div className={styles.lastbox}>
           <h2>Supported by real people</h2>
           <p>
             Our team of Happiness Engineers works remotely from 58 countries
             providing customer support across multiple time zones.
           </p>
-          <img src="/imgage 24.png" />
+          <img src="/image 24.png" className={styles.lastbox} />
         </div>
-        <img src="/imgage 24.png" />
-        <img src="/imgage 24.png" />
+        <img src="/imgage 24.png" className={styles.dots} />
+        <img src="/imgage 24.png" className={styles.circle} />
       </div>
     </div>
   );
