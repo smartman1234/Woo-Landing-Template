@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   margin: 0rem;
- background-image: gradient(radial, center center, 0, center center, 141, fromrgb(120, 205, 245), to(white))
+background: linear-gradient(to bottom, #e8f1fd 0%, #fffafa 100%);
 }
 
 .main {
