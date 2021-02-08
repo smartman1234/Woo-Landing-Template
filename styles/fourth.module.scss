@@ -4,13 +4,13 @@
   flex-direction: column;
   position: relative;
   margin-top: 15rem;
-  height: 870px;
+  height: 1030px;
 }
 .fourthtop {
   height: 509px;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin-bottom: 130px;
   background: linear-gradient(
     180deg,
     rgba(236, 240, 253, 0) 0%,
@@ -23,6 +23,9 @@
 .testim {
   width: 570px;
   height: 359px;
+  position: relative;
+  top: 0px;
+  left: 350px;
 }
 .write {
   display: flex;
@@ -41,17 +44,17 @@
   color: #272d4e;
 }
 .last {
-  width: 70%;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  padding-top: 90px;
 
 }
 .lastboximg {
-  width: 100%;
+  width: 68%;
   position: relative;
- top: -280px;
- left: -10px;
+  top: -280px;
+  left: 203px;
 }
 .lastbox h2 {
   left: 636px;
@@ -64,6 +67,9 @@
   text-align: center;
 }
 .lastbox p {
+  position: relative;
+  top: 0px;
+  left: 200px;
   width: 450px;
   margin-left: 14rem;
   font-family: Roboto;
@@ -74,9 +80,113 @@
   color: #94a2b3;
 }
 .backdrop {
- 
-  height: 273px;
-position: relative;
-top:70px;
- left: -120px;
+  height: 276px;
+  position: relative;
+  top: 72px;
+  left: 78px;
+}
+.fourthimg5 {
+  width: 127px;
+  left: 468px;
+  top: 255px;
+  position: absolute;
+}
+.fourthimg6 {
+  width: 96px;
+
+  left: 251px;
+  top: 50px;
+  position: absolute;
+}
+.fourthimg7 {
+  width: 60px;
+  left: 65px;
+  top: 190px;
+  position: absolute;
+}
+.fourthimg8 {
+  width: 75px;
+  left: 165px;
+  top: 435px;
+  position: absolute;
+}
+.fourthimg9 {
+  width: 309px;
+  left: 306px;
+  top: 367px;
+  position: absolute;
+}
+.fourthimg1 {
+  width: 305px;
+  left: 660px;
+  top: 187px;
+  position: absolute;
+}
+.fourthimg2 {
+  width: 95px;
+  left: 895px;
+  top: 30px;
+  position: absolute;
+}
+.fourthimg3 {
+  width: 150px;
+  left: 999px;
+  top: 195px;
+  position: absolute;
+}
+.fourthimg4 {
+  width: 65px;
+  left: 950px;
+  top: 480px;
+  position: absolute;
+}
+.arrow1 {
+  position: absolute;
+  width: 21.73px;
+
+  left: 745px;
+  top: 498px;
+}
+.arrow2 {
+  position: absolute;
+  width: 30.73px;
+
+  left: 784px;
+  top: 496px;
+}
+.mediumcircle {
+  position: absolute;
+  width: 51.73px;
+
+  left: 62px;
+  top: 873px;
+}
+.smallcircle {
+  position: absolute;
+  width: 25px;
+
+  left: 127px;
+  top: 966px;
+}
+.dots1 {
+  position: absolute;
+  width: 175px;
+
+  left: 60px;
+  top: 1006px;
+}
+
+.dots{
+   position: absolute;
+  width: 25px;
+
+  left: 1080px;
+  top: 856px;
+}
+.circle{
+  position: absolute;
+  width: 350px;
+
+  left: 845px;
+  top: 932px;
 }
