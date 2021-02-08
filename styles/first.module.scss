@@ -18,10 +18,12 @@
 
 .left h4 {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Circular Std;
   padding: 0px;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.2rem;
+
+color: #272D4E;
 }
 
 .left a {
@@ -105,15 +107,16 @@
   color: #94a2b3;
 }
 .bold {
-  font-family: Circular Std;
+  font-family: "Circular Std";
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.7rem;
   margin-right: 0;
   text-align: center;
   height: 100px;
   justify-content: center;
   display: flex;
+color: #272D4E;
 }
 .content {
   padding-left: 30px;
