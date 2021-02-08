@@ -2,10 +2,13 @@ html,
 body {
   padding: 0;
   margin: 0px;
-
-  font-family: 'Roboto', sans-serif Circular Std,  Oxygen;
 }
-
+@font-face {
+  font-family: 'Circular Std';
+  src: url('/public/CircularStd-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {font-family: "Circular Std Bold"; src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot"); src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg"); }
 a {
   color: inherit;
   text-decoration: none;
