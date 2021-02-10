@@ -9,7 +9,11 @@ const Thirdpage = () => {
           <div className={styles.float1}>
             <img src="/Ellipse 31.png" alt="" className={styles.bigelip} />
             <img src="/Group 7.png" alt="" className={styles.group7} />
-            <img src="/Ellipse 32elips.png" alt="" className={styles.smallelip} />
+            <img
+              src="/Ellipse 32elips.png"
+              alt=""
+              className={styles.smallelip}
+            />
             <img
               src="/Rectangle 236.png"
               alt=""
@@ -42,7 +46,11 @@ const Thirdpage = () => {
           </div>
 
           <div className={styles.float2}>
-            <img src="/Ellipse 34elip.png" alt="" className={styles.mediumelip} />
+            <img
+              src="/Ellipse 34elip.png"
+              alt=""
+              className={styles.mediumelip}
+            />
             <img src="/Group 8.png" alt="" className={styles.group8} />
             <img
               src="/Rectangle 233.png"
