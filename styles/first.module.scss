@@ -224,3 +224,22 @@
   top: -30px;
   width: 140px;
 }
+
+@media only screen and (max-width: 600px) {
+  .first {
+  max-width: 100vw;
+ flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.right {
+  width: 47%;
+  height: 909.14px;
+}
+.left {
+  width: 50%;
+  margin: 0px;
+  padding: 12rem 0rem 0rem 8rem;
+  margin-right: 0.2rem;
+}
+}
