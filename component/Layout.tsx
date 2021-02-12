@@ -6,12 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="content">
       <Head>
-        <link
-          rel="preload"
-          href="/CircularStd-Bold.ttf"
-          as="font"
-          crossOrigin=""
-        />
+         <link rel="preconnect" href="https://fonts.gstatic.com"/>
       </Head>
       <Footer />
       {children}
