@@ -9,6 +9,7 @@ const Navbar = () => {
           <div className={styles.brand}>
             <img src="/LOGO.png" alt="Logo" />
           </div>
+        
           <ul className={styles.menu}>
             <li className={styles.link}>
               <a href="/">Sell</a>

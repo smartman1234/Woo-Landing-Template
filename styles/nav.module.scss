@@ -59,3 +59,24 @@
 .search {
   padding-top: 10px;
 }
+ @media only screen and (max-width: 600px){
+   .nav{
+     width: 100%;
+   }
+   .menu{
+     display: none;
+   }
+   .side{
+     display: flex;
+     margin-top: 10px;
+   }
+   .btn{
+     padding: 0;
+     font-size: 0.5rem;
+     height: 30px;
+   }
+   .side a{
+      font-size: 1rem;
+     
+   }
+ }
