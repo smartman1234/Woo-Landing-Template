@@ -144,18 +144,18 @@ height: 1500px;
   }
   .boldbottom {
     position: relative;
-   left: -60px;
-    color: black;
+   left: -65px;
+    color: rgb(255, 255, 255);
   
   }
   .boldtop {
     position: relative;
-   left: -260px;
+   left: -250px;
     width: 100%;
   
   }
   .textbox1 {
-    color: black;
+    color: rgb(255, 255, 255);
        position: relative;
       top: 350px;
     left: 250px;
@@ -172,9 +172,9 @@ height: 1500px;
     left: 0px;
   }
   .textbox2 {
-    color: black;
+    color: rgb(255, 255, 255);
       position: relative;
-      top: 860px;
+      top: 800px;
     left: 60px;
   }
   .writeup {
@@ -189,7 +189,7 @@ top: 400px;
 left: 200px;
 }
 .mediumelip{
-  width: 40px;
+  display: none;
 }
 .group8{
   display: none;
