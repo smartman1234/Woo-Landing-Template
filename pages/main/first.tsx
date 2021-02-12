@@ -10,16 +10,14 @@ const FirstPage = () => {
           WooCommerce is a customizable, open-source eCommerce platform built on
           WordPress. Get started quickly and make your way.
         </p>
-        <button className={styles.btn}>Start a New Store</button>
-        <span>or</span>
-        <a href="/">Customize & Extend ›</a>
+        <div className={styles.btnbox}>
+          <button className={styles.btn}>Start a New Store</button>
+          <span>or</span>
+          <a href="/">Customize & Extend ›</a>
+        </div>
       </div>
       <div className={styles.right}>
-        <img
-          src="/back.png"
-          alt="side image"
-          className={styles.back}
-        />
+        <img src="/back.png" alt="side image" className={styles.back} />
         <img
           src="/featured-image.png"
           alt="side image"
