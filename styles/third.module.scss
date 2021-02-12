@@ -134,6 +134,25 @@ font-family: 'Varela Round', sans-serif;
   position: relative;
   width: 180.76px;
 }
-  // @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px){
+.box{
+  flex-wrap: wrap;
+}
+.boldbottom{
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: black;
+}
+.boldtop{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 
-  // }
+}
+.textbox1{
+  color: black;
+}
+.textbox2{
+  color: black;
+}
+  }

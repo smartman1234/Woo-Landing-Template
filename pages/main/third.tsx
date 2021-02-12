@@ -4,7 +4,7 @@ import styles from '../../styles/third.module.scss';
 const Thirdpage = () => {
   return (
     <main className={styles.container}>
-      <div>
+      <div className={styles.box}>
         <div className={styles.boldtop}>
           <div className={styles.float1}>
             <img src="/Ellipse 31.png" alt="" className={styles.bigelip} />
