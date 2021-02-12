@@ -20,15 +20,21 @@ const Footer = () => {
         <div className={styles.first}>
           <div className={styles.inner}>
             <img src="/Vector.png" alt="auto" />
-            <p> 30 day money back guarantee</p>
+            <p>
+              30 day <b>money back guarantee</b>
+            </p>
           </div>
           <div className={styles.inner}>
             <img src="/Union.png" alt="auto" />
-            <p> Support teams across the world</p>
+            <p>
+              <b>Support </b>teams across the world
+            </p>
           </div>
           <div className={styles.inner}>
             <img src="/Union2.png" alt="auto" />
-            <p> Safe & Secure online payment</p>
+            <p>
+              <b>Safe & Secure</b> online payment
+            </p>
           </div>
         </div>
         <div className={styles.second}>
