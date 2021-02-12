@@ -21,17 +21,20 @@ const Thirdpage = () => {
             />
           </div>
           <div className={styles.textbox1}>
-            <h3 className={styles.heading1}>Develop Without Limits</h3>
-            <p className={styles.writeup}>
-              WooCommerce is developer friendly, too. Built with a REST API,
-              WooCommerce is scalable and can integrate with virtually any
-              service. Design a complex store from scratch, extend a store for a
-              client, or simply add a single product to a WordPress site—your
-              store, your way.
-            </p>
-            <button className={styles.btn}>Read the Documentation</button>
+            <div>
+              <h3 className={styles.heading1}>Develop Without Limits</h3>
+              <p className={styles.writeup}>
+                WooCommerce is developer friendly, too. Built with a REST API,
+                WooCommerce is scalable and can integrate with virtually any
+                service. Design a complex store from scratch, extend a store for
+                a client, or simply add a single product to a WordPress
+                site—your store, your way.
+              </p>
+              <button className={styles.btn}>Read the Documentation</button>
+            </div>
+
+            <img src="/Union233.png" alt="" className={styles.imgleft} />
           </div>
-          <img src="/Union233.png" alt="" className={styles.imgleft} />
         </div>
         <div className={styles.boldbottom}>
           <div className={styles.textbox2}>

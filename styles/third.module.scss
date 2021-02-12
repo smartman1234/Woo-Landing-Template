@@ -1,22 +1,21 @@
 .container {
-  background-image: url('/background.png' );
+  background-image: url('/background.png');
   background-repeat: no-repeat;
   justify-content: center;
-  
+
   background-size: cover;
   width: 100%;
   height: 800px;
   display: flex;
   position: relative;
   top: 100px;
-
 }
 .boldtop {
   display: flex;
+ 
 }
 .imgrightbig {
   width: 370px;
-
   border-radius: 20px;
   top: -60px;
   left: 180px;
@@ -24,7 +23,6 @@
 }
 .imgrightbig2 {
   width: 370px;
-
   border-radius: 20px;
   position: absolute;
   top: 360px;
@@ -37,8 +35,7 @@
   top: -10px;
   left: 870px;
 }
-.float1 {
-}
+
 .textbox1 {
   justify-content: center;
   margin: 0 auto;
@@ -58,14 +55,14 @@
   position: absolute;
 }
 .heading1 {
- font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
   width: 170px;
 }
 .heading2 {
-font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
@@ -128,31 +125,76 @@ font-family: 'Varela Round', sans-serif;
   position: relative;
   width: 330.76px;
 }
-.mediumelip{
-    top: 370px;
+.mediumelip {
+  top: 370px;
   left: 359px;
   position: relative;
   width: 180.76px;
 }
-  @media only screen and (max-width: 600px){
-.box{
-  flex-wrap: wrap;
-}
-.boldbottom{
-  flex-wrap: wrap;
-  flex-direction: row;
-  color: black;
-}
-.boldtop{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-
-}
-.textbox1{
-  color: black;
-}
-.textbox2{
-  color: black;
-}
+@media only screen and (max-width: 600px) {
+  .container {
+     background-image: url('/background.png');
+  background-repeat: no-repeat;
+  justify-content: center;
+height: 1500px;
+ display: flex;
   }
+  .box {
+    flex-wrap: wrap;
+  }
+  .boldbottom {
+    position: relative;
+   left: -60px;
+    color: black;
+  
+  }
+  .boldtop {
+    position: relative;
+   left: -260px;
+    width: 100%;
+  
+  }
+  .textbox1 {
+    color: black;
+       position: relative;
+      top: 350px;
+    left: 250px;
+  
+  }
+  .imgrightbig1{
+ position: relative;
+      top: 200px;
+    left: 0px;
+  }
+  .imgrightbig2{
+ position: relative;
+      top: 370px;
+    left: 0px;
+  }
+  .textbox2 {
+    color: black;
+      position: relative;
+      top: 860px;
+    left: 60px;
+  }
+  .writeup {
+
+  font-size: 0.8rem;
+  width: 250px;
+  line-height: 20px;
+}
+.bigelip{
+  width: 150px;
+top: 400px;
+left: 200px;
+}
+.mediumelip{
+  width: 40px;
+}
+.group8{
+  display: none;
+}
+.group7{
+  display: none;
+}
+}
