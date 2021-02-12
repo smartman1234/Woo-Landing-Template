@@ -31,7 +31,7 @@ const Thirdpage = () => {
             </p>
             <button className={styles.btn}>Read the Documentation</button>
           </div>
-          <img src="/union23.png" alt="" className={styles.imgleft} />
+          <img src="/Union23.png" alt="" className={styles.imgleft} />
         </div>
         <div className={styles.boldbottom}>
           <div className={styles.textbox2}>
