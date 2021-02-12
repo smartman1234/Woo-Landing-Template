@@ -58,14 +58,14 @@
   position: absolute;
 }
 .heading1 {
-  font-family: Circular Std;
+ font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
   width: 150px;
 }
 .heading2 {
-  font-family: Circular Std;
+font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
@@ -134,3 +134,6 @@
   position: relative;
   width: 180.76px;
 }
+  // @media only screen and (max-width: 600px){
+
+  // }
