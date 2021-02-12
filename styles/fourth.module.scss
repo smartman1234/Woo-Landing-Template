@@ -67,16 +67,14 @@
   color: #272d4e;
 }
 .lastbox p {
-  position: relative;
-  top: 0px;
-  left: 200px;
-  width: 450px;
-  margin-left: 14rem;
-  font-family: Roboto;
+  margin-left: 24rem;
+width: 500px;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 0.8rem;
   line-height: 20px;
   text-align: center;
+  align-items: center;
   color: #94a2b3;
 }
 .backdrop {
@@ -189,4 +187,131 @@
 
   left: 845px;
   top: 932px;
+}
+@media only screen and (max-width: 600px) {
+  .fourth{
+    height: 907px;
+  }
+  .lastboximg {
+    position: relative;
+    left: 30px;
+    top: -190px;
+  }
+  .lastbox{
+
+  }.lastbox h2{
+       position: relative;
+    top: 90px;
+    left: 0;
+  }
+  .lastbox p {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 0.5rem;
+    position: relative;
+    top: 90px;
+  }
+  .backdrop{
+    width: 400px;
+  position: relative;
+  left: -50px;
+  top: 90px;
+  }
+  .dots {
+  position: absolute;
+  width: 25px;
+
+  left: 0px;
+  top: 1056px;
+}
+.circle {
+  position: absolute;
+  width: 120px;
+
+  left: 170px;
+  top: 1002px;
+}
+.fourthtop{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.testim{
+  position: relative;
+  left: 0;
+  top: 200px;
+  width: 100%;
+  height: 100%;
+}
+// the images relatie
+
+.fourthimg5 {
+  width: 50px;
+  left: 8px;
+  top: 405px;
+  position: absolute;
+}
+.fourthimg6 {
+  width: 56px;
+
+  left: 41px;
+  top: 170px;
+  position: absolute;
+}
+.fourthimg7 {
+  width: 50px;
+  left: 155px;
+  top: 100px;
+  position: absolute;
+}
+.fourthimg8 {
+  width: 55px;
+  left: 265px;
+  top: 165px;
+  position: absolute;
+}
+.fourthimg9 {
+  width: 79px;
+  left: 36px;
+  top: 167px;
+  position: absolute;
+}
+.fourthimg1 {
+  width: 105px;
+  left: 220px;
+  top:477px;
+  position: absolute;
+}
+.fourthimg2 {
+  width: 75px;
+  left: 25px;
+  top:530px;
+  position: absolute;
+}
+.fourthimg3 {
+  width: 90px;
+  left: 139px;
+  top: 590px;
+  position: absolute;
+}
+.fourthimg4 {
+  width: 55px;
+  left: 290px;
+  top: 540px;
+  position: absolute;
+}
+.arrow1 {
+  position: absolute;
+  width: 21px;
+
+  left: 145px;
+  top: 500px;
+}
+.arrow2 {
+  position: absolute;
+  width: 30px;
+
+  left: 184px;
+  top: 500px;
+}
 }

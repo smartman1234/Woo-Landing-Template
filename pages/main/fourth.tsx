@@ -22,9 +22,11 @@ const Fourthpage = () => {
           <img src="/Ellipse 28.png" className={styles.fourthimg3} />
           <img src="/Ellipse 30.png" className={styles.fourthimg4} />
         </div>
-        <img src="/testim.png" className={styles.testim} />
-        <img src="/Union (2).png" className={styles.arrow1} />
-        <img src="/Union (1) copy.png" className={styles.arrow2} />
+        <div>
+          <img src="/testim.png" className={styles.testim} />
+          <img src="/Union (2).png" className={styles.arrow1} />
+          <img src="/Union (1) copy.png" className={styles.arrow2} />
+        </div>
       </div>
       <div className={styles.last}>
         <img src="/Ellipse 36.png" className={styles.mediumcircle} />
