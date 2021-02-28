@@ -1,13 +1,13 @@
 .container {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 0 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-background: linear-gradient(to bottom, #e8f1fd 0%, #fffafa 100%);
+  margin: 0px;
+  background: linear-gradient(to bottom, #e8f1fd 0%, #fffafa 100%);
 }
 
 .main {
@@ -34,14 +34,13 @@ background: linear-gradient(to bottom, #e8f1fd 0%, #fffafa 100%);
     flex-direction: column;
   }
   .container {
-  min-height: 100vh;
-  width: 100vw;
-  padding: 0 0rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem;
-
-}
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+  }
 }

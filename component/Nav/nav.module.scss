@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 98vw;
+  width: 95vw;
   position: absolute;
   top: 0;
   height: 10vh;
@@ -33,6 +33,12 @@
   font-size: 16px;
   margin: 0;
   font-family: Roboto;
+ 
+}
+.link a{
+ list-style: none;
+ color: black;
+ text-decoration: none;
 }
 .btn {
   background-color: #7854f7;
@@ -55,6 +61,8 @@
 .side a {
   font-weight: 500;
   font-size: 16px;
+  color: black;
+   text-decoration: none;
 }
 .search {
   padding-top: 10px;
@@ -62,6 +70,7 @@
  @media only screen and (max-width: 600px){
    .nav{
      width: 100%;
+     padding: 0;
    }
    .menu{
      display: none;

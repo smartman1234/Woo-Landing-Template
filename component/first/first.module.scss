@@ -241,8 +241,7 @@ font-family: 'Varela Round', sans-serif;
 }
 .back{
    position: relative;
-   left: 80px;
- 
+   left: 0px;
   width: 100%;
 }
 .left {
@@ -257,6 +256,7 @@ font-size: 2rem;
 .btn{
   padding: 0.4rem;
 }
+.boldTOP
 .btnbox{
   display: flex;
   flex-wrap: wrap;
@@ -301,5 +301,8 @@ font-size: 2rem;
    margin: 0;
    top: 100px;
    margin-bottom:300px;
+}
+.leftimg{
+  left: 180px;
 }
 }

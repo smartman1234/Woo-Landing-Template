@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 .Third {
   color: white;
@@ -135,21 +134,25 @@ color: white;
   border: 2px solid white;
 }
 @media only screen and (max-width: 600px){
+  .main{
+    width: 100vw;
+  }
   .topfooter{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
+     width: 100vw;
   }
   .topfooterp{
   align-items: center;
-padding: 10px;
- width: 400px;
+padding: 0px;
+ width: 100%;
  text-align: center;
  font-size: 1.1rem;
   line-height: 35px;
   color: #ffffff;
-  margin: 5px;
+  margin: 0px;
   }
   .topbtn{
     margin: 0px;

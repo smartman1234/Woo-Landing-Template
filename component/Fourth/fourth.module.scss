@@ -1,5 +1,5 @@
 .fourth {
-  width: 100%;
+ 
   display: flex;
   flex-direction: column;
   position: relative;
@@ -190,7 +190,7 @@ width: 500px;
 }
 @media only screen and (max-width: 600px) {
   .fourth{
-    height: 907px;
+    height: 927px;
   }
   .lastboximg {
     position: relative;
@@ -204,10 +204,11 @@ width: 500px;
   }
   .lastbox p {
     margin-left: 20px;
-    width: 300px;
+    width: 70%;
     font-size: 0.5rem;
     position: relative;
     top: 90px;
+    left: 40px;
   }
   .backdrop{
     width: 400px;
