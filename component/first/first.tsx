@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../styles/first.module.scss';
+import styles from './first.module.scss';
 
 const FirstPage = () => {
   return (

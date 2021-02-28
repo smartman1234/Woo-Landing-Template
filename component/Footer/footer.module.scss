@@ -4,23 +4,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+
 }
 .Third {
   color: white;
   display: flex;
-  padding: 0px 50px;
+
   border-top: 1px solid#9A7DFF;
 }
+
 .text {
   justify-content: space-evenly;
   margin: 50px;
 }
-.text p {
+.text ul{
+
+  padding:0px;
+}
+.text li {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 22px;
+    list-style: none;
+color: white;
+    padding-top: 10px;
+}
+.text a{
+      text-decoration:none;
+      color: white;
+  
 }
 .second img {
   object-fit: cover;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../../styles/fourth.module.scss';
+import styles from './fourth.module.scss';
 
 const Fourthpage = () => {
   return (

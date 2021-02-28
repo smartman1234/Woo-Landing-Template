@@ -2,10 +2,10 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 
-import First from './main/first';
-import Second from './main/second';
-import Third from './main/third';
-import Fourth from './main/fourth';
+import First from '../component/first/first';
+import Second from '../component/first/second';
+import Third from '../component/third/third';
+import Fourth from '../component/Fourth/fourth';
 export default function Home() {
   return (
     <div className={styles.container}>
